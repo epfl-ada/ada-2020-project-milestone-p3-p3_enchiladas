@@ -1,1 +1,2 @@
-#
+# we must ignore the data folder
+data
