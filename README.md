@@ -2,7 +2,7 @@
 ada-2020-project-milestone-p3-p3_enchiladas created by GitHub Classroom
 
 
-## Title: Analysis of the effect of ethnicity on food purchase in London
+## Title: Analysis of the effect of ethnicity on food purchase in London's Tesco supermarkets
 
 ## Abstract: 
 The objective is to extend the Tesco dataset with a dataset containing numerous interesting socio-economic statistics in the London area. The analysis focuses on LSOA regions, which is the finest resolution available in the Tesco dataset. The proportion of inhabitants from various ethnicities is given for each LSOA in the additional dataset. We will first analyze the effect of ethnic diversity on food purchase. It will be based on the comparison of diversity of food categories consumed across LSOA regions and their ethnic diversity. We will then try to validate the observations we made by assessing if they still hold when other socio-economic aspects (such as mean wage for example) are taken into account. Depending on the results found, we will also investigate in greater details what impact specific ethnic populations may have on the food purchase.
