@@ -18,14 +18,16 @@ The dataset from the paper is already very interesting. Indeed, besides the nutr
 In addition, a dataset of the geographical information of the LSOA will be used (https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london) for visualization purposes. This will allow to display some of the results on the London map with relevant values assigned to each geographical region representing the LSOA. 
 
 ## Methods:
-- Clean the data. 
-- Filter the data to only keep the most representative areas for our analysis. We will use the representativeness metric introduced in the paper to ensure that we filter the areas as necessary.
-- Analyse the distributions of the food categories consumed and their diversity at area level.
-- Analyse the distributions of ethnicities proportions at area level.
-- Compute a food categories diversity metric using the data from the Tesco dataset (different from the nutrients entropy).
-- Compute an ethnic diversity metric for each LSOA and run statistical tests to see if it has an influence on food consumption diversity.
-- Assess the effects of other socio-economic factors such as the mean wage or the employment rate.
-- Visualize the results using clear and esthetic figures. 
+- Compute the ethnic entropy, representing the diversity of proportions of ethnic groups in London LSOA
+- Compute various entropies to add information about diversity of groups of features in the dataset
+- Explore the dataset using histograms and maps of London
+- Perform correlations between the ethnic entropy and the food purchase entropy in LSOA
+- Perform correlations between each ethnic proportion and each food category proportion
+- Perform a causality analysis, using first some linear regressions to compare the contributions of ethnic entropy and potential socio-economic confounders on the food product categories entropy
+- Perform a causality analysis using propensity score matching. As ethnic entropy is continuous, we will use Generalized Propensity Score (GPS) matching to perform this analysis
+- Assess the causal effect of the ethnic diversity on the food purchase entropy, using GPS matching 
+- Assess the causal effects of ethnicities proportions on purchased food categories proportions
+- Interpret the results 
 
 ## Proposed timeline:
 ### 1st week: 
